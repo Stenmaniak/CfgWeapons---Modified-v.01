@@ -244,7 +244,7 @@ class CfgWeapons {
 	//class MakarovSD: FakeWeapon {};                                       // Suppressed
         //class Sa61_EP1: FakeWeapon {};                                        // Automatic
 	//class UZI_EP1: FakeWeapon {};                                         // Automatic
-	class UZI_SD_EP1: FakeWeapon {};                                        // Automatic, Suppressed
+	class UZI_SD_EP1: FakeWeapon {};      //Need, popular                   // Automatic, Suppressed
 	//class glock17_EP1: FakeWeapon {};
         
               //.45 ACP
@@ -263,14 +263,20 @@ class CfgWeapons {
 // Shotguns
         
         //class M1014: FakeWeapon {};
-        class AA12_PMC: FakeWeapon {};
-        class Saiga12K: FakeWeapon {};
+        class AA12_PMC: FakeWeapon {};         //want
+        class Saiga12K: FakeWeapon {};         //Need
         
 // Misc. Rifles
         
         //class huntingrifle: FakeWeapon {};
         
 // Launchers
+
+//  COMMENTS:  Everything in launchers are banned, We are currently using several types of rockets 
+//  on our live server without any issues.  M136 for example, has been on our server for months.  
+//  Its rare, but it is there and well liked.
+//  I would like to see the option to use just about any of these for whatever reasons I have now, or could
+//  possibly have in the future.
         
         class M136: FakeWeapon {};
 	class Javelin: FakeWeapon {};
@@ -357,6 +363,8 @@ class CfgWeapons {
 	class M120: FakeWeapon {};
         
 // Heavy Machineguns
+
+//  Comments: 90% of these if unbanned would not be used, but, like I stress, the option is everything
         
         class M134: FakeWeapon {};
 	class M134_2: FakeWeapon {};
@@ -404,6 +412,9 @@ class CfgWeapons {
         //class L85A2_base_BAF: FakeWeapon {};
         
 // Ordinance
+
+//  Comments: Pipebombs (I.E. satchelcharges) are live on our server, rare, but well liked
+//  Could alsofigure out a use for IEDs in near future.
         
         class TimeBomb: FakeWeapon {};
 	class Mine: FakeWeapon {};
@@ -415,6 +426,8 @@ class CfgWeapons {
 	class BAF_ied_v4: FakeWeapon {};
         
 // Tools
+
+//  Comments:  All should be unbanned.
         
         //class Binocular: FakeWeapon {};
 	class Laserdesignator: FakeWeapon {};
@@ -460,6 +473,8 @@ class CfgWeapons {
 	class M68: FakeWeapon {};
 	
 //Cannons
+
+//  Comments: Many of these are main guns on armored vehicles.  
         
 	class 2A46M: FakeWeapon {};
 	class D10: FakeWeapon {};
